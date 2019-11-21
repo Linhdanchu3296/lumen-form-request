@@ -3,7 +3,7 @@ Laravel Form Request adaptation for Lumen framework
 
 ### How to install
 ```
-composer require linhdanchu/lumen-form-request
+composer require linhdanchu/lumen-form-request:1.4
 ```
 
 * Add the service provider in bootstrap/app.php
