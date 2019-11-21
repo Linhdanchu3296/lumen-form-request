@@ -1,8 +1,8 @@
 <?php
 
-namespace Linhdanchu\Providers;
+namespace linhdanchu\Providers;
 
-use Linhdanchu\Requests\FormRequest;
+use linhdanchu\Requests\FormRequest;
 use Laravel\Lumen\Http\Redirector;
 use Illuminate\Support\ServiceProvider;
 use Symfony\Component\HttpFoundation\Request;

@@ -1,5 +1,5 @@
 {
-    "name": "Linhdanchu/lumen-form-request",
+    "name": "linhdanchu/lumen-form-request",
     "description": "Laravel Form Request adaptation for Lumen framework.",
     "keywords": ["form", "request", "lumen"],
     "license": "MIT",
@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Linhdanchu\\": "src/"
+            "linhdanchu\\": "src/"
         }
     }
 }

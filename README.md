@@ -3,16 +3,16 @@ Laravel Form Request adaptation for Lumen framework
 
 ### How to install
 ```
-composer require Linhdanchu/lumen-form-request
+composer require linhdanchu/lumen-form-request
 ```
 
 * Add the service provider in bootstrap/app.php
 
 ```
-$app->register(Linhdanchu\Providers\FormRequestServiceProvider::class);
+$app->register(linhdanchu\Providers\FormRequestServiceProvider::class);
 ```
 
-Next step is create your FormRequest and extends from Linhdanchu/Requests/FormRequest
+Next step is create your FormRequest and extends from linhdanchu/Requests/FormRequest
 ### Example
 
 ```
@@ -20,7 +20,7 @@ Next step is create your FormRequest and extends from Linhdanchu/Requests/FormRe
 
 namespace App\Http\Requests;
 
-use Linhdanchu\Requests\FormRequest;
+use linhdanchu\Requests\FormRequest;
 
 class StoreDeviceRequest extends FormRequest
 {
