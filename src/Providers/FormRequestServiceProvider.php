@@ -1,6 +1,6 @@
 <?php
 
-namespace Linhdanchu\Providers;
+namespace linhdanchu\Providers;
 
 use linhdanchu\Requests\FormRequest;
 use Laravel\Lumen\Http\Redirector;

@@ -37,9 +37,3 @@ class StoreDeviceRequest extends FormRequest
 	}
 }
 ```
-
-* Link for Laravel Form Request documentation
-
-https://laravel.com/docs/5.4/validation#available-validation-rules
-
-Enjoy!
