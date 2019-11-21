@@ -9,7 +9,7 @@ composer require linhdanchu/lumen-form-request
 * Add the service provider in bootstrap/app.php
 
 ```
-$app->register(linhdanchu\Providers\FormRequestServiceProvider::class);
+$app->register(Linhdanchu\Providers\FormRequestServiceProvider::class);
 ```
 
 Next step is create your FormRequest and extends from linhdanchu/Requests/FormRequest
@@ -20,7 +20,7 @@ Next step is create your FormRequest and extends from linhdanchu/Requests/FormRe
 
 namespace App\Http\Requests;
 
-use linhdanchu\Requests\FormRequest;
+use Linhdanchu\Requests\FormRequest;
 
 class StoreDeviceRequest extends FormRequest
 {
