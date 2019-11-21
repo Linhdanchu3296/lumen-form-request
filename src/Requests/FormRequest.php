@@ -1,6 +1,6 @@
 <?php
 
-namespace linhdanchu\Requests;
+namespace Linhdanchu\Requests;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
