@@ -11,5 +11,12 @@
         "psr-4": {
             "Linhdanchu\\": "src/"
         }
-    }
+    },
+    "repositories": [
+        {
+          "url": "https://github.com/linhdanchu/lumen-form-request",
+     
+           "type": "git"
+         }
+    ]
 }
